@@ -1,6 +1,7 @@
 package com.devst.app;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.camera2.CameraManager;
@@ -22,10 +23,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -40,6 +37,7 @@ public class HomeActivity extends AppCompatActivity {
     private boolean luz = false;
 
     // Activity Result (para recibir datos de PerfilActivity)
+    @SuppressLint("SetTextI18n")
     private final ActivityResultLauncher<Intent> editarPerfilLauncher =
             registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
                 if (result.getResultCode() == RESULT_OK && result.getData() != null) {
@@ -61,6 +59,7 @@ public class HomeActivity extends AppCompatActivity {
                 }
             });
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -171,6 +170,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onPause() {
         super.onPause();

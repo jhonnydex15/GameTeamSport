@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -69,6 +68,7 @@
             android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:hint="@string/email_hint"
             android:inputType="textEmailAddress"
             android:textColor="@color/text_main"
@@ -82,6 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_12"
+            android:autofillHints=""
             android:hint="@string/password_hint"
             android:inputType="textPassword"
             android:textColor="@color/text_main"
@@ -130,7 +131,8 @@
                 android:text="@string/crear_cuenta"
                 android:textStyle="bold"
                 android:paddingStart="@dimen/space_8"
-                android:textColor="@color/brand_primary"/>
+                android:textColor="@color/brand_primary"
+                tools:ignore="RtlSymmetry" />
         </LinearLayout>
     </LinearLayout>
 
