@@ -28,4 +28,6 @@
     <string name="compartir_texto">Compartir texto</string>
     <string name="linterna_on_off">Linterna ON/OFF</string>
     <string name="abrir_c_mara">Abrir Cámara</string>
+    <string name="preguntas_frecuentes">Preguntas frecuentes</string>
+    <string name="enviar_un_correo">enviar un correo</string>
 </resources>
