@@ -76,7 +76,7 @@
             android:id="@+id/btnCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enviar_un_correo" />
+            android:text="@string/consultas_por_correo" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
