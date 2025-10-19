@@ -1,4 +1,4 @@
-Prototipo 2 - App Android con Intents
+Prototipo 2 - App Android con Intents 
 
 Resumen del Proyecto 📋
 
