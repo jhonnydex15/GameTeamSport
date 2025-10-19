@@ -45,15 +45,15 @@ Pantalla Principal (MainActivity)
 Interfaz principal con botones organizados para intents implícitos y explícitos
 
 PhotoActivity en acción
-![PhotoActivity](screenshots/photo_activity.png)
+<img width="188" height="337" alt="image" src="https://github.com/user-attachments/assets/a731028d-7bd3-43fc-aaee-b3f671f71da6" />
 Galería funcional con botones para cámara y selección de imágenes
 
 MapActivity con coordenadas
-![MapActivity](screenshots/map_activity.png)
+<img width="188" height="337" alt="image" src="https://github.com/user-attachments/assets/8c757a36-c4dd-4474-9cb6-ad9c90c3e093" />
 Pantalla que recibe y muestra coordenadas geográficas
 
 AyudaActivity - FAQ
-![AyudaActivity](screenshots/help_activity.png)
+<img width="310" height="555" alt="image" src="https://github.com/user-attachments/assets/3bbbd5ec-b8f3-41e1-8072-e141b7af3b8b" />
 Página de ayuda con preguntas frecuentes y soluciones
 
 
