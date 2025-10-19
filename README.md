@@ -40,7 +40,7 @@ Intents explícitos (3)
 Capturas de pantalla:
 
 Pantalla Principal (MainActivity)
-<img width="191" height="338" alt="image" src="https://github.com/user-attachments/assets/dc2791c0-79ec-4708-b904-69f5ce53d0e4" />
+<img width="191" height="337" alt="image" src="https://github.com/user-attachments/assets/dc2791c0-79ec-4708-b904-69f5ce53d0e4" />
 
 Interfaz principal con botones organizados para intents implícitos y explícitos
 
@@ -53,7 +53,7 @@ MapActivity con coordenadas
 Pantalla que recibe y muestra coordenadas geográficas
 
 AyudaActivity - FAQ
-<img width="310" height="555" alt="image" src="https://github.com/user-attachments/assets/3bbbd5ec-b8f3-41e1-8072-e141b7af3b8b" />
+<img width="310" height="337" alt="image" src="https://github.com/user-attachments/assets/3bbbd5ec-b8f3-41e1-8072-e141b7af3b8b" />
 Página de ayuda con preguntas frecuentes y soluciones
 
 
