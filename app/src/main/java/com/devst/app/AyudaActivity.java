@@ -23,7 +23,7 @@ public class AyudaActivity  extends AppCompatActivity {
         try {
             Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
             emailIntent.setData(Uri.parse("mailto:"));
-            emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"gameteamsport.com"});
+            emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"gameteamsport@gmail.com"});
             emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Consulta sobre Game Team Sport");
             startActivity(Intent.createChooser(emailIntent, "Enviar correo..."));
         } catch (Exception e) {

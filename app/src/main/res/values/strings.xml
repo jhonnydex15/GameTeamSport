@@ -31,4 +31,16 @@
     <string name="preguntas_frecuentes">Preguntas frecuentes</string>
     <string name="enviar_un_correo">enviar un correo</string>
     <string name="consultas_por_correo">consultas por correo</string>
+    <string name="c_mo_usar_los_mapas">📍 ¿Cómo usar los mapas?</string>
+    <string name="c_mo_tomar_fotos">📸 ¿Cómo tomar fotos?</string>
+    <string name="usa_el_bot_n_tomar_foto">- Usa el botón \'Tomar Foto\'</string>
+    <string name="haz_clic_en_el_bot_n_ver_mapa">- Haz clic en el botón \'Ver Mapa\'</string>
+    <string name="c_mo_enviar_correos">✉️ ¿Cómo enviar correos?</string>
+    <string name="usa_el_bot_n_enviar_correo">- Usa el botón \'Enviar Correo\'</string>
+    <string name="c_mo_agregar_eventos">📅 ¿Cómo agregar eventos?</string>
+    <string name="usa_el_bot_n_agregar_evento">- Usa el botón \'Agregar Evento\'</string>
+    <string name="game_team_sport">Game Team Sport</string>
+    <string name="mapa">Mapa</string>
+    <string name="fotos">Fotos</string>
+    <string name="faq_ayuda">FAQ / Ayuda</string>
 </resources>

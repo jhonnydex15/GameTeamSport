@@ -42,14 +42,10 @@ public class PhotoActivity extends AppCompatActivity{
         setContentView(R.layout.activity_photo);
 
         Button btnTomarFoto = findViewById(R.id.btnTomarFoto);
-        btnTomarFoto.setOnClickListener(v -> {
-            permisosCamara();
-        });
+        btnTomarFoto.setOnClickListener(v -> permisosCamara());
 
         Button btnSeleccionarFoto = findViewById(R.id.btnSeleccionarFoto);
-        btnSeleccionarFoto.setOnClickListener(v -> {
-            abrirGaleria();
-        });
+        btnSeleccionarFoto.setOnClickListener(v -> abrirGaleria());
 
         imageView = findViewById(R.id.imagenSeleccionada);
     }

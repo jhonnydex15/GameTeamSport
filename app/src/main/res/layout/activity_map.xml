@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/app_background_dark"
+    tools:context=".MapActivity">
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints">
+    <TextView
+        android:id="@+id/textViewMapTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="📍 Navegación y Eventos"
+        android:textColor="@color/accent_orange"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCoordenada1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:ignore="HardcodedText" />
 
-        <TextView
-            android:id="@+id/textFAQ"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:gravity="center"
-            android:text="🗺️ Mapa"
-            tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnCoordenada1"
+        style="@style/AppButton.Orange"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Abrir Ubicación en Mapa"
+        app:layout_constraintBottom_toTopOf="@+id/btnAgregarEvento"
+        app:layout_constraintEnd_toEndOf="@+id/btnAgregarEvento"
+        app:layout_constraintStart_toStartOf="@+id/btnAgregarEvento"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMapTitle"
+        tools:ignore="HardcodedText" />
 
-        <Button
-            android:id="@+id/btnCoordenada1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="evento 1" />
+    <Button
+        android:id="@+id/btnAgregarEvento"
+        style="@style/AppButton.Orange"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Agregar Evento al Calendario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCoordenada1"
+        tools:ignore="HardcodedText" />
 
-        <Button
-            android:id="@+id/btnAgregarEvento"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Agregar Evento al Calendario" />
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
