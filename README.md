@@ -37,7 +37,7 @@ Intents explícitos (3)
 3.- PhotoActivity: Muestra la galeria y funciones de la camara, muestra galeria de fotos, botones de camara y muestra vista previa de imagenes.
 
 
-Capturas de pantalla:
+Capturas de pantalla: 📲
 
 Pantalla Principal (MainActivity)
 <img width="191" height="337" alt="image" src="https://github.com/user-attachments/assets/dc2791c0-79ec-4708-b904-69f5ce53d0e4" />
@@ -53,17 +53,16 @@ MapActivity con coordenadas
 Pantalla que recibe y muestra coordenadas geográficas
 
 AyudaActivity - FAQ
-<img width="310" height="337" alt="image" src="https://github.com/user-attachments/assets/3bbbd5ec-b8f3-41e1-8072-e141b7af3b8b" />
+<img width="228" height="404" alt="image" src="https://github.com/user-attachments/assets/afd48051-d578-449b-acd1-f1e07c68c025" />
 Página de ayuda con preguntas frecuentes y soluciones
 
 
-Instalación y compilación:
+Instalación y compilación: 🎛️
 
 Opción 1: Usar APK Debug (Recomendado)
 El archivo APK listo para instalar se encuentra en:
 
-app/build/outputs/apk/debug/app-debug.apk
-
+- [[url-del-repositorio]](https://github.com/jhonnydex15/GameTeamSport)
 
 Pasos para instalar:
 1.- Descargar app-debug.apk
@@ -81,12 +80,12 @@ Requisitos:
 Pasos para compilar: 
 bash
 1.- Clonar repositorio
-git clone [url-del-repositorio]
-cd [nombre-del-proyecto]
+git clone [[url-del-repositorio]](https://github.com/jhonnydex15/GameTeamSport)
+cd [GameTeamSport]
 
 2.- Abrir en Android Studio
 3.- Sincronizar proyecto con archivos Gradle
-4.-Conectar dispositivo Android o crear emulador
+4.- Conectar dispositivo Android o crear emulador
 5.- Ejecutar app (Shift + F10)
 
 
@@ -96,15 +95,15 @@ Checklist de Verificación
 
 Intents implícitos:
 
--Navegador web se abre correctamente
+- Navegador web se abre correctamente
 
--Cliente de correo muestra datos prellenados
+- Cliente de correo muestra datos prellenados
 
--Cámara captura y retorna foto
+- Cámara captura y retorna foto
 
--Selector de imágenes funciona
+- Selector de imágenes funciona
 
--Calendario crea evento con datos
+- Calendario crea evento con datos
 
 
 Intents explícitos:
@@ -118,52 +117,39 @@ PhotoActivity permite tomar y ver imágenes
 
 Estructura del proyecto:
 
-app/
-├── src/main/java/com/tuapp/
-│   ├── MainActivity.java           Actividad principal
-│   ├── AyudaActivity.java          Pantalla de ayuda FAQ
-│   ├── MapActivity.java            Muestra coordenadas
-│   └── PhotoActivity.java          Galería con cámara
-├── res/layout/
-│   ├── activity_main.xml
-│   ├── activity_ayuda.xml
-│   ├── activity_map.xml
-│   └── activity_photo.xml
-└── manifests/AndroidManifest.xml
-
-
+<img width="500" height="1050" alt="image" src="https://github.com/user-attachments/assets/3a560208-0c02-4d89-a777-602c648f4e6a" />
 
 Características técnicas implementadas
 
 Funcionalidades avanzadas:
 
--ActivityResultLauncher para manejo moderno de resultados
+- ActivityResultLauncher para manejo moderno de resultados
 
--Validaciones de entrada en formularios
+- Validaciones de entrada en formularios
 
--Manejo de errores con try-catch y Toast messages
+- Manejo de errores con try-catch y Toast messages
 
--Navegación con botones "Atrás" en Toolbar
+- Navegación con botones "Atrás" en Toolbar
 
--Paso de datos entre Activities usando Bundle y Extras
+- Paso de datos entre Activities usando Bundle y Extras
 
 UX/UI:
 
--Design responsive con LinearLayout y ScrollView
+- Design responsive con LinearLayout y ScrollView
 
--Feedback visual con mensajes Toast
+- Feedback visual con mensajes Toast
 
--Iconos emoji para mejor experiencia de usuario
+- Iconos emoji para mejor experiencia de usuario
 
--Organización clara de funcionalidades
+- Organización clara de funcionalidades
 
 
 Desarrollo
 
--Equipo: Michael Cifuentes, Michael Inostroza.   
--Asignatura: Programación Android.  
--Institución: Santo Tomas.  
--Fecha de entrega: 18 de Octubre.
+- Equipo: Michael Cifuentes, Michael Inostroza.   
+- Asignatura: Programación Android.  
+- Institución: Santo Tomas.  
+- Fecha de entrega: 18 de Octubre.
 
 
 Licencia:
